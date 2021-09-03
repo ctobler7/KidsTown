@@ -47,7 +47,7 @@ h1 {
 
 .townPic {
   align-content: center;
-  padding: 10% 2%;
+  padding: 2% 2%;
 }
 
 .townText {
@@ -108,8 +108,10 @@ h1 {
   .rotateLeft {
     transform: rotate(0deg);
   }
-
   .rotateRight {
     transform: rotate(0deg);
+  }
+  .townPic {
+    padding: 10% 2%;
   }
 }
