@@ -1,0 +1,115 @@
+body {
+  background-color: white;
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+}
+
+h1 {
+  font-family: "Luckiest Guy", sans-serif;
+}
+
+.mainLogo {
+   display: block;
+   margin: auto;
+   width: 60%;
+   height: 60%;
+}
+
+ .container-fluid{
+
+ }
+
+ .nav {
+   font-family: "Luckiest Guy", cursive;
+ }
+
+ .nav-link {
+   color: white;
+ }
+
+.socialIcons{
+  margin: 10px 10px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+ /*Sections*/
+ .homeSection {
+   padding: 5% 10%;
+ }
+
+ .townRow {
+   padding-top: 2%;
+   padding-bottom: 2%;
+ }
+
+.townPic {
+  align-content: center;
+  padding: 10% 2%;
+}
+
+.townText {
+  display: flex;
+  align-items: center;
+}
+
+ .rotateLeft {
+   transform: rotate(-25deg);
+ }
+
+ .rotateRight {
+   transform: rotate(25deg);
+ }
+
+ .footSection {
+   padding: 5% 10%;
+ }
+
+ /*TEXT-ALIGN*/
+.textLeftAlign {
+  text-align: left;
+}
+
+.textRightAlign {
+  text-align: right;
+}
+
+.textCenterAlign {
+  text-align: center;
+}
+
+/*COLORS*/
+.skyBlue {
+  background-color: #A1CAE2;
+}
+
+.black {
+  background-color: Black;
+}
+
+.grassGreen {
+  background-color: #A8DDA8;
+}
+
+.border {
+  border-color: yellow;
+  border: 1rem thick double;
+
+}
+
+#theTown {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 1028px) {
+  .rotateLeft {
+    transform: rotate(0deg);
+  }
+
+  .rotateRight {
+    transform: rotate(0deg);
+  }
+}
