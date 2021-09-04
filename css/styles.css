@@ -8,6 +8,7 @@ h1 {
   font-family: "Luckiest Guy", sans-serif;
 }
 
+
 .mainLogo {
    display: block;
    margin: auto;
@@ -60,6 +61,7 @@ h1 {
 .townText {
   display: flex;
   align-items: center;
+  padding: 10%;
 }
 
  .rotateLeft {
