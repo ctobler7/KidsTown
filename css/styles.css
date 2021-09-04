@@ -15,17 +15,25 @@ h1 {
    height: 60%;
 }
 
- .container-fluid{
-
+ .navbar-toggler {
+   margin-left: 2%;
  }
 
- .nav {
-   font-family: "Luckiest Guy", cursive;
+ .navbar-dark .navbar-nav .nav-link {
+     color: white;
  }
 
  .nav-link {
-   color: white;
+   font-family: "Luckiest Guy", cursive;
+   color: red;
  }
+
+
+.navImg {
+  margin-left: 2%;
+  width: 10%;
+  height: auto;
+}
 
 .socialIcons{
   margin: 10px 10px;
@@ -37,7 +45,7 @@ h1 {
 
  /*Sections*/
  .homeSection {
-   padding: 5% 10%;
+   padding: 10% 10% 5% 10%;
  }
 
  .townRow {
@@ -113,5 +121,9 @@ h1 {
   }
   .townPic {
     padding: 10% 2%;
+  }
+
+  .homeSection {
+    padding-top: 20%;
   }
 }
