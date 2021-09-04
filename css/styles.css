@@ -28,7 +28,6 @@ h1 {
    color: red;
  }
 
-
 .navImg {
   margin-left: 2%;
   width: 10%;
@@ -72,7 +71,7 @@ h1 {
  }
 
  .footSection {
-   padding: 5% 10%;
+   padding: 10% 10% 5% 10%;
  }
 
  /*TEXT-ALIGN*/
@@ -108,7 +107,7 @@ h1 {
 }
 
 #theTown {
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 5%;
 }
 
@@ -125,5 +124,14 @@ h1 {
 
   .homeSection {
     padding-top: 20%;
+  }
+
+  #theTown {
+    padding-top: 20%;
+    padding-bottom: 5%;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 2%;
   }
 }
