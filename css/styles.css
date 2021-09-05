@@ -109,6 +109,11 @@ h1 {
 
 }
 
+.sodaLogo {
+  width: 100%;
+  height: auto;
+}
+
 #theTown {
   padding-top: 10%;
   padding-bottom: 5%;
