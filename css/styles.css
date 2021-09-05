@@ -49,6 +49,16 @@ h1 {
    padding: 10% 10% 5% 10%;
 }
 
+.comingSection {
+  padding: 10% 10% 5% 10%;
+}
+
+.comingTile {
+  padding: 2%;
+  color: white;
+  align-content: center;
+}
+
 .townRow {
    padding-top: 2%;
    padding-bottom: 2%;
@@ -103,15 +113,20 @@ h1 {
   background-color: #A8DDA8;
 }
 
-.border {
-  border-color: yellow;
-  border: 1rem thick double;
-
-}
 
 .sodaLogo {
   width: 100%;
   height: auto;
+  padding-bottom: 2%;
+}
+
+.pad {
+  padding: 4% 5%;
+  align-content: center;
+}
+
+.padTile {
+  padding: 3% 2%;
 }
 
 #theTown {
