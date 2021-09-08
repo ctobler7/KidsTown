@@ -217,4 +217,8 @@ canvas#signature-pad {
     margin-top: 3%;
     margin-bottom: 1%;
   }
+
+  .wrapper{
+    height: 200px;
+  }
 }
