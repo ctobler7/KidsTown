@@ -9,6 +9,13 @@ h1 {
   padding-bottom: 4%;
 }
 
+hr {
+  height:5px;
+  border-width:100;
+  color:gray;
+  background-color:gray
+}
+
 
 .mainLogo {
    display: block;
@@ -129,10 +136,58 @@ h1 {
   padding: 3% 2%;
 }
 
+/*The Waiver*/
+.waiverDoc {
+  background-color: white;
+  text-align: left;
+  font-family: "Times New Roman", serif;
+  padding: 5% 5%;
+}
+
+.timesNew {
+  font-family: "Times New Roman", serif;
+}
+
+.indent {
+  margin-left: 2rem;
+}
+
+.signatureBox {
+  border-color: Black;
+  border: 2rem;
+  border-radius: 2;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.wrapper {
+  border: 1px solid Black;
+  border-radius: 5;
+}
+
+.btn-lg {
+  margin: 2%;
+}
+
+.waiverRow {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+
+canvas#signature-pad {
+    width: 100%;
+    height: 100%;
+    cursor: crosshair;
+}
+
 #theTown {
   padding-top: 10%;
   padding-bottom: 5%;
 }
+
 
 @media (max-width: 1028px) {
   .rotateLeft {
@@ -156,5 +211,10 @@ h1 {
 
   .navbar-nav .nav-link {
     padding-left: 2%;
+  }
+
+  .waiverRow {
+    margin-top: 3%;
+    margin-bottom: 1%;
   }
 }
