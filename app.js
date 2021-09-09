@@ -27,6 +27,10 @@ app.get("/waiver", function(req, res){
   res.render("waiver");
 });
 
+app.get("/gallery", function(req, res){
+  res.render("gallery");
+});
+
 app.listen(port, function(req, res){
   console.log("Server is running on " + port);
 });

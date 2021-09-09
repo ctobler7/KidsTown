@@ -5,7 +5,7 @@
 <%- include("partials/navbar"); -%>
 
 <div class="container-fluid homeSection skyBlue">
-  <div class="border rounded-3 waiverDoc">
+  <div id="divPDF" class="border rounded-3 waiverDoc">
     <h1 class="timesNew textCenterAlign">Kids Town Liability Waiver</h1>
     <p>In consideration of being allowed to enter into the play area and/or participate in any party/program or any other event at Kids Town,
       the undersigned, on his or her own behalf and/or on behalf of the participant(s) identified below, acknowledges, appreciates and agrees
@@ -123,7 +123,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-auto">
-          <button class="btn btn-primary btn-lg" type="submit" name="button">Submit</button>
+          <button id="btnPDF" class="btn btn-primary btn-lg" type="submit" name="button" onclick="getPDF()">Submit</button>
         </div>
       </div>
     </div>
@@ -162,6 +162,21 @@
 });
 </script>
 
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.min.js">/* global jsPDF */ </script>
+<script>
+  function getPDF(){
+    var doc = new jsPDF();
+    var divId = "divPDF";
+    var title = "Waiver";
+
+    doc.fromHTML(document.getElementById(divId).innerHTML + '</body></html>');
+    doc.save("waiver.pdf");
+
+  }
+
+</script>
 
 <!-- Footer Section -->
 <%- include("partials/footer"); -%>
