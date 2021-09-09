@@ -18,10 +18,7 @@ hr {
 
 
 .mainLogo {
-   display: block;
-   margin: auto;
-   width: 60%;
-   height: 60%;
+  margin-bottom: 5%;
 }
 
  .navbar-toggler {
@@ -152,10 +149,9 @@ hr {
   margin-left: 2rem;
 }
 
-.signatureBox {
-  border-color: Black;
+.carouselBorder {
   border: 2rem;
-  border-radius: 2;
+  border-radius: 10;
 }
 
 .flex-row {
@@ -190,6 +186,12 @@ canvas#signature-pad {
 
 
 @media (max-width: 1028px) {
+  .mainLogo {
+    margin-bottom: 5%;
+    width: 320px;
+    height: auto;
+  }
+
   .rotateLeft {
     transform: rotate(0deg);
   }
