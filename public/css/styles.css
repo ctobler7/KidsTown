@@ -179,7 +179,9 @@ canvas#signature-pad {
 
   .mainLogo {
     margin-bottom: 5%;
-    width: 320px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 300px;
     height: auto;
     align-items: center;
   }
