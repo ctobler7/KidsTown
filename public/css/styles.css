@@ -16,11 +16,34 @@ hr {
   background-color:gray
 }
 
-
-.mainLogo {
-  margin-bottom: 5%;
+/* TEXT-ALIGN */
+.textCenterAlign {
+ text-align: center;
 }
 
+.textLeftAlign {
+ text-align: left;
+}
+
+.textRightAlign {
+ text-align: right;
+}
+
+/* COLORS */
+.skyBlue {
+ background-color: #A1CAE2;
+}
+
+.black {
+ background-color: Black;
+}
+
+.grassGreen {
+ background-color: #A8DDA8;
+}
+
+
+/* Navbar */
  .navbar-toggler {
    margin-left: 2%;
  }
@@ -40,27 +63,19 @@ hr {
   height: auto;
 }
 
-.socialIcons{
-  margin: 10px 10px;
-}
-
-.btn:hover {
-  color: white;
-}
-
- /*Sections*/
+/* Home Section */
 .homeSection {
    padding: 10% 10% 5% 10%;
 }
 
-.comingSection {
-  padding: 10% 10% 5% 10%;
+.mainLogo {
+  margin-bottom: 5%;
 }
 
-.comingTile {
-  padding: 2%;
-  color: white;
-  align-content: center;
+/* The Town Section*/
+.carouselBorder {
+  border: 2rem;
+  border-radius: 10;
 }
 
 .townRow {
@@ -71,53 +86,16 @@ hr {
 .townPic {
   align-content: center;
   padding: 4% 2%;
+  width: auto;
+  height: 360px;
 }
 
-.townText {
-  display: flex;
-  align-items: center;
-  padding: 10%;
+#theTown {
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
- .rotateLeft {
-   transform: rotate(-25deg);
- }
-
- .rotateRight {
-   transform: rotate(25deg);
- }
-
- .footSection {
-   padding: 10% 10% 5% 10%;
- }
-
- /*TEXT-ALIGN*/
-.textLeftAlign {
-  text-align: left;
-}
-
-.textRightAlign {
-  text-align: right;
-}
-
-.textCenterAlign {
-  text-align: center;
-}
-
-/*COLORS*/
-.skyBlue {
-  background-color: #A1CAE2;
-}
-
-.black {
-  background-color: Black;
-}
-
-.grassGreen {
-  background-color: #A8DDA8;
-}
-
-
+/* MotherGoose Soda Section*/
 .sodaLogo {
   width: 100%;
   height: auto;
@@ -133,45 +111,34 @@ hr {
   padding: 3% 2%;
 }
 
-/*The Waiver*/
-.waiverDoc {
-  background-color: white;
-  text-align: left;
-  font-family: "Times New Roman", serif;
-  padding: 5% 5%;
+/* Coming Soon Section */
+.comingSection {
+  padding: 10% 10% 5% 10%;
 }
 
-.timesNew {
-  font-family: "Times New Roman", serif;
+.comingTile {
+  padding: 2%;
+  color: white;
+  align-content: center;
 }
 
-.indent {
-  margin-left: 2rem;
-}
+/* Footer Section */
+ .footSection {
+   padding: 10% 10% 5% 10%;
+ }
 
-.carouselBorder {
-  border: 2rem;
-  border-radius: 10;
-}
+ .socialIcons{
+   margin: 10px 10px;
+ }
 
-.flex-row {
-  display: flex;
-}
-
-.wrapper {
-  border: 1px solid Black;
-  border-radius: 5;
+/* The Waiver Page*/
+.btn:hover {
+  color: white;
 }
 
 .btn-lg {
   margin: 2%;
 }
-
-.waiverRow {
-  margin-top: 1%;
-  margin-bottom: 2%;
-}
-
 
 canvas#signature-pad {
     width: 100%;
@@ -179,40 +146,49 @@ canvas#signature-pad {
     cursor: crosshair;
 }
 
-#theTown {
-  padding-top: 10%;
-  padding-bottom: 5%;
+.waiverDoc {
+  background-color: white;
+  text-align: left;
+  font-family: "Times New Roman", serif;
+  padding: 5% 5%;
 }
 
+.waiverRow {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
 
+.indent {
+  margin-left: 2rem;
+}
+
+.timesNew {
+  font-family: "Times New Roman", serif;
+}
+
+.wrapper {
+  border: 1px solid Black;
+  border-radius: 5;
+}
+
+/* Mobile Friendly Conversion */
 @media (max-width: 1028px) {
+  .homeSection {
+    padding-top: 20%;
+  }
+
   .mainLogo {
     margin-bottom: 5%;
     width: 320px;
     height: auto;
   }
 
-  .rotateLeft {
-    transform: rotate(0deg);
-  }
-  .rotateRight {
-    transform: rotate(0deg);
-  }
-  .townPic {
-    padding: 10% 2%;
-  }
-
-  .homeSection {
-    padding-top: 20%;
-  }
-
-  #theTown {
-    padding-top: 20%;
-    padding-bottom: 5%;
-  }
-
   .navbar-nav .nav-link {
     padding-left: 2%;
+  }
+
+  .townPic {
+    padding: 10% 2%;
   }
 
   .waiverRow {
@@ -222,5 +198,10 @@ canvas#signature-pad {
 
   .wrapper{
     height: 200px;
+  }
+
+  #theTown {
+    padding-top: 20%;
+    padding-bottom: 5%;
   }
 }
