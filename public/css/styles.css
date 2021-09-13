@@ -6,9 +6,12 @@ body {
 
 h1 {
   font-family: "Luckiest Guy", sans-serif;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
 }
 
+h3 {
+  padding-top: 4%;
+}
 hr {
   height:5px;
   border-width:100;
