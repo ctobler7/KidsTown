@@ -1,22 +1,42 @@
 body {
   background-color: white;
   text-align: center;
-  font-family: "Josefin Slab", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-  font-family: "Luckiest Guy", sans-serif;
+  font-family: "Boogaloo", cursive;
+  text-transform: uppercase;
   padding-bottom: 2%;
 }
 
-h3 {
-  padding-top: 4%;
+h2 {
+  font-family: "Boogaloo", cursive;
+  text-transform: capitalize;
 }
+
+h6 {
+  font-family: "Boogaloo", cursive;
+  text-transform: capitalize;
+  color: white;
+}
+
 hr {
   height:5px;
   border-width:100;
   color:gray;
   background-color:gray
+}
+
+th {
+  font-weight: normal;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+           background-image:none !important;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+           background-color:red;
 }
 
 /* TEXT-ALIGN */
@@ -55,15 +75,24 @@ hr {
      color: white;
  }
 
+ .navbar-dark .navbar-nav .nav-link:hover {
+   color: #A1CAE2;
+ }
+
  .nav-link {
-   font-family: "Luckiest Guy", cursive;
-   color: red;
+   font-family: "Boogaloo", cursive;
+   text-transform: uppercase;
  }
 
 .navImg {
   margin-left: 2%;
   width: 10%;
   height: auto;
+}
+
+/* All Sections */
+.sectionPadding {
+  padding: 5%;
 }
 
 /* Home Section */
@@ -73,6 +102,10 @@ hr {
 
 .mainLogo {
   margin-bottom: 5%;
+}
+
+.carousel {
+  padding-bottom: 4%;
 }
 
 /* The Town Section*/
@@ -90,7 +123,7 @@ hr {
   align-content: center;
   padding: 4% 2%;
   width: auto;
-  height: 360px;
+  height: 320px;
 }
 
 #theTown {
@@ -114,22 +147,7 @@ hr {
   padding: 3% 2%;
 }
 
-/* Coming Soon Section */
-.comingSection {
-  padding: 10% 10% 5% 10%;
-}
-
-.comingTile {
-  padding: 2%;
-  color: white;
-  align-content: center;
-}
-
 /* Footer Section */
- .footSection {
-   padding: 10% 10% 5% 10%;
- }
-
  .socialIcons{
    margin: 10px 10px;
  }
@@ -174,6 +192,8 @@ canvas#signature-pad {
   border-radius: 5;
 }
 
+
+
 /* Mobile Friendly Conversion */
 @media (max-width: 1028px) {
   .homeSection {
@@ -209,5 +229,9 @@ canvas#signature-pad {
   #theTown {
     padding-top: 20%;
     padding-bottom: 5%;
+  }
+  .aboutText {
+    padding-top: 3%;
+
   }
 }
