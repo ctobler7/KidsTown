@@ -152,6 +152,10 @@ th {
    margin: 10px 10px;
  }
 
+ .mapPic {
+   padding: 2% 0%;
+ }
+
 /* The Waiver Page*/
 .btn:hover {
   color: white;
@@ -242,5 +246,9 @@ canvas#signature-pad {
   .aboutText {
     padding-top: 3%;
 
+  }
+
+  .mapPic {
+    padding: 10% 0%;
   }
 }

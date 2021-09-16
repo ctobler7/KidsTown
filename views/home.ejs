@@ -7,7 +7,12 @@
 <!-- Home Section -->
 <div class="container-fluid homeSection grassGreen">
   <div>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100 carouselBorder" src="images/town2.png" alt="First slide">
@@ -19,20 +24,28 @@
           <img class="d-block w-100" src="images/ovalBanner.png" alt="Second slide">
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
     <h5>We're so excited to introduce Las Vegas to Kids Town! Kids Town is a unique indoor
-        child sized town featuring custom built shops, restaurants, a post office, a school, and a
-        house to immerse your child in pretend play! Your child will love pretending to be big and
-        you'll love the cognitive development that occurs with pretend play! Enjoy watching your
-        child explore the town while relaxing in the parent area park. You can even treat yourself
-        to a specialty soda! Coming soon December 2021. Can't wait to play!!
+      child sized town featuring custom built shops, restaurants, a post office, a school, and a
+      house to immerse your child in pretend play! Your child will love pretending to be big and
+      you'll love the cognitive development that occurs with pretend play! Enjoy watching your
+      child explore the town while relaxing in the parent area park. You can even treat yourself
+      to a specialty soda! Coming soon December 2021. Can't wait to play!!
     </h5>
   </div>
   <span id="theTown"></span> <!-- to transport to top of Town Section with Navbar in the above section -->
 </div>
 
 <!--The Town Section -->
-<section  class="skyBlue">
+<section class="skyBlue">
   <div class="container-fluid sectionPadding skyBlue">
 
     <h1>The Town</h1>
@@ -43,7 +56,7 @@
         <img class="townPic" src="images/house.png" alt="The House">
         <h2>The House</h2>
         <p>Cook up some breakfast in the kitchen, rock a baby doll to sleep in the nursery,
-            or work in the garden in the front yard!
+          or work in the garden in the front yard!
         </p>
       </div>
       <div class="col-lg-3 col-md-6 col-sm-12">
@@ -114,7 +127,7 @@
 </section>
 
 <!-- Mother Goose Soda Shop Section -->
-<section  class="grassGreen">
+<section class="grassGreen">
   <div class="container-fluid sectionPadding">
     <img class="sodaLogo" src="images/motherGoose.png" alt="Mother Goose Logo">
     <h5>To sweeten your stay with us, we offer specialty sodas and treats for purchase. Menu coming soon!</h5>
@@ -126,43 +139,47 @@
 <section class="skyBlue">
   <div class="container-fluid sectionPadding">
     <h1>Pricing</h1>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col"><h2>Admission</h2></th>
-              <th scope="col"><h2>Price</h2></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Children 1 - 12 years old</th>
-              <td>$14</td>
-            </tr>
-            <tr>
-              <th scope="row">Non-walking Babies</th>
-              <td>Free with paid child admission</td>
-            </tr>
-            <tr>
-              <th scope="row">First Adult</th>
-              <td>Free with paid child admission</td>
-            </tr>
-            <tr>
-              <th scope="row">Each Additional Adult</th>
-              <td>$5</td>
-            </tr>
-            <tr>
-              <th scope="row">Prepaid 10 Visit Pass</th>
-              <td>$120</td>
-            </tr>
-            <tr>
-              <th scope="row">Play Date for 8 (Groups of 8 or more)</th>
-              <td>$12 per child</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>*Admission is for 2 hours, add an additional hour for $4</p>
-        <p>**Pricing is subject to change</p>
-      </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">
+            <h2>Admission</h2>
+          </th>
+          <th scope="col">
+            <h2>Price</h2>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Children 1 - 12 years old</th>
+          <td>$14</td>
+        </tr>
+        <tr>
+          <th scope="row">Non-walking Babies</th>
+          <td>Free with paid child admission</td>
+        </tr>
+        <tr>
+          <th scope="row">First Adult</th>
+          <td>Free with paid child admission</td>
+        </tr>
+        <tr>
+          <th scope="row">Each Additional Adult</th>
+          <td>$5</td>
+        </tr>
+        <tr>
+          <th scope="row">Prepaid 10 Visit Pass</th>
+          <td>$120</td>
+        </tr>
+        <tr>
+          <th scope="row">Play Date for 8 (Groups of 8 or more)</th>
+          <td>$12 per child</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>*Admission is for 2 hours, add an additional hour for $4</p>
+    <p>**Pricing is subject to change</p>
+  </div>
 </section>
 
 <!-- Coming Soon Section -->
