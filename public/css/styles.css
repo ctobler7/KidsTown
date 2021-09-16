@@ -192,12 +192,20 @@ canvas#signature-pad {
   border-radius: 5;
 }
 
-
+.aboutPic {
+  border-radius: 30px;
+  border-style: solid;
+  border-width: thick;
+}
 
 /* Mobile Friendly Conversion */
 @media (max-width: 1028px) {
   .homeSection {
     padding-top: 20%;
+  }
+
+  .sectionPadding {
+    padding-top: 10%;
   }
 
   .mainLogo {
@@ -230,6 +238,7 @@ canvas#signature-pad {
     padding-top: 20%;
     padding-bottom: 5%;
   }
+
   .aboutText {
     padding-top: 3%;
 
