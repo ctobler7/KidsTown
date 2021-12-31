@@ -54,7 +54,7 @@ th {
 
 /* COLORS */
 .skyBlue {
- background-color: #A1CAE2;
+ background-color: #B7D9EF;
 }
 
 .black {
@@ -181,10 +181,8 @@ canvas#signature-pad {
 }
 
 .waiverDoc {
-  background-color: white;
   text-align: left;
   font-family: "Times New Roman", serif;
-  padding: 5% 5%;
 }
 
 .waiverRow {
@@ -259,5 +257,10 @@ canvas#signature-pad {
 
   .mapPic {
     padding: 10% 0%;
+  }
+
+  .waiverDoc {
+    width: 100%;
+    height: 100%;
   }
 }
